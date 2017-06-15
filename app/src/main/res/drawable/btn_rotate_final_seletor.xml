@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <rotate
+            android:visible="true"
+            android:fromDegrees="-180"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <bitmap
+                android:src="@drawable/ic_btn_back_normal"
+                android:tint="#fac300" />
+        </rotate>
+    </item>
+    <item>
+        <rotate
+            android:drawable="@drawable/ic_btn_back_normal"
+            android:visible="true"
+            android:fromDegrees="-180"
+            android:pivotX="50%"
+            android:pivotY="50%">
+        </rotate>
+    </item>
+</selector>
