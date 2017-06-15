@@ -1,6 +1,7 @@
 ## 利用Tint属性优化Selector
 
-博客文章地址 ：  [Tint属性优化Selector](http://www.jianshu.com/p/c37628fbc397) 
+博客文章地址 ：  [http://www.jianshu.com/p/c37628fbc397](http://www.jianshu.com/p/c37628fbc397) 
+---
 ![final.gif](http://upload-images.jianshu.io/upload_images/1155837-c8fda7cfe387b486.gif?imageMogr2/auto-orient/strip)
 
 ## 关于Selector的使用
@@ -128,7 +129,7 @@ Selector中文的意思选择器，在Android中常常用来作组件的背景�
 <?xml version="1.0" encoding="utf-8" ?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
-        <bitmap android:src="@drawable/ic_btn_back_pressed" android:tint="#fac300" />
+        <bitmap android:src="@drawable/ic_btn_back_normal" android:tint="#fac300" />
     </item>
     <item android:drawable="@drawable/ic_btn_back_normal" />
 </selector>
