@@ -1,5 +1,9 @@
 ## 利用Tint属性优化Selector
 
+博客文章地址 ：  [Tint属性优化Selector](http://www.jianshu.com/p/c37628fbc397) 
+![final.gif](http://upload-images.jianshu.io/upload_images/1155837-c8fda7cfe387b486.gif?imageMogr2/auto-orient/strip)
+
+## 关于Selector的使用
 Selector中文的意思选择器，在Android中常常用来作组件的背景，这样做的好处是省去了用代码控制实现组件在不同状态下不同的背景颜色或图片的变换。使用十分方便。Selector就是状态列表（StateList）， 它分为两种，一种`Color-Selector` 和`Drawable-Selector`。一般使用语法如下：
 ```java
 <?xml version="1.0" encoding="utf-8"?>
@@ -158,9 +162,7 @@ Selector中文的意思选择器，在Android中常常用来作组件的背景�
     </item>
 </selector>
 ```
-重新设置成 Button的background之后，编译安装，效果实现了，而且还是左右对称的两个按钮。是不是觉得很简洁，我们只用了一张图片就实现了左右箭头的两个按钮。看看最终效果 :
-
-![final.gif](http://upload-images.jianshu.io/upload_images/1155837-c8fda7cfe387b486.gif?imageMogr2/auto-orient/strip)
+重新设置成 Button的background之后，编译安装，效果实现了，而且还是左右对称的两个按钮。是不是觉得很简洁，我们只用了一张图片就实现了左右箭头的两个按钮。
 
 
 ## 总结
